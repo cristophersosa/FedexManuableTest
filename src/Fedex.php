@@ -135,7 +135,7 @@ class Fedex
                 ]
             ]
         ];
-
+ 
         $xmlData = new SimpleXMLElement("<RateRequest xmlns='http://fedex.com/ws/rate/v13'></RateRequest>");
 
         $this->convertToXml($data, $xmlData);
