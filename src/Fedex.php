@@ -1,5 +1,7 @@
 <?php
 
+namespace Fedex;
+
 class Fedex
 {
 

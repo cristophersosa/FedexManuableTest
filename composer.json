@@ -8,11 +8,18 @@
             "Cristophersosa\\FedexManuableTest\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "cristophersosa",
             "email": "38702620+cristophersosa@users.noreply.github.com"
         }
     ],
-    "require": {}
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
 }
