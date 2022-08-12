@@ -1,6 +1,6 @@
 # FedexManuableTest by Cristopher Sosa
 
-### To install:
+### To install library:
 ```
 composer require cristophersosa/fedex-manuable-test
 ````
