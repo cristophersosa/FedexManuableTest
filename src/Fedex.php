@@ -1,6 +1,6 @@
 <?php
 
-namespace Fedex;
+namespace Cristophersosa\FedexManuableTest;
 
 class Fedex
 {
@@ -135,8 +135,8 @@ class Fedex
                 ]
             ]
         ];
- 
-        $xmlData = new SimpleXMLElement("<RateRequest xmlns='http://fedex.com/ws/rate/v13'></RateRequest>");
+
+        $xmlData = new \SimpleXMLElement("<RateRequest xmlns='http://fedex.com/ws/rate/v13'></RateRequest>");
 
         $this->convertToXml($data, $xmlData);
 
